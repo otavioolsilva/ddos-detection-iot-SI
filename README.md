@@ -1,0 +1,3 @@
+This repository contains all the resources that I produced or that I used during my undergraduate scientific initiation research project, titled "DDoS Detection in the Internet of Things using Machine Learning Methods with Retraining" and supervised by professor Daniel Batista, at the Institute of Mathematics and Statistics of the University of São Paulo (IME - USP). More information can be found in my blog posts on the subject [here](https://otavioolsilva.github.io/categories/undergraduate-research-project/).
+
+Project supported by the São Paulo Research Foundation (FAPESP), process number 2024/10240-3.
