@@ -14,8 +14,9 @@ do
 
   sleep 10
 
-  iperf3 -c $3 --time 10 --verbose
-  #iperf3 -c $3 --time 10 --verbose --udp --bitrate 1M
+  #iperf3 -c $3 --time 10 --verbose # TCP
+  #iperf3 -c $3 --time 10 --verbose --udp --bitrate 1M # UDP with bitrate limit (set it to 0 for unlimited)
+  iperf3 -c $3 --time 10 --verbose --udp --bitrate 5M --length 1168 # UDP with bitrate limit and packet length defined (in bytes)
 
   sleep 32
   ping $3 -c 1 > /dev/null # Just to break the pypcap loop, since it
