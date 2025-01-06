@@ -18,13 +18,13 @@ do
   sleep 10
 
   printf "Starting attack\n"
-  timeout 30s netwox 76 -i $4 -p 5201 # netwox in localhost
-  #ssh root@$3 "timeout 30s netwox 76 -i $4 -p 5201" # netwox in a remote computer
+  timeout 10s netwox 76 -i $4 -p 5201 # netwox in localhost
+  #ssh root@$3 "timeout 10s netwox 76 -i $4 -p 5201" # netwox in a remote computer
   printf "Attack ended\n"
 
   sleep 32
 
-  ping $4 -c 1 > /dev/null # Just to break the pypcap loop, since it
+  ping $3 -c 1 > /dev/null # Just to break the pypcap loop, since it
                            # doesn't have its own timeout mechanism
 
   wait $sniffer_pid 2> /dev/null # Ensure the Python process has ended
