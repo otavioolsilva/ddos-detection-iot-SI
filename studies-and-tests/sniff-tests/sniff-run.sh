@@ -21,7 +21,7 @@ do
   #iperf3 -c $3 --time 10 --verbose --udp --bitrate 1M
 
   # UDP with number of packets and length defined
-  #iperf3 -c $3 --verbose --udp --bitarate 2M --blockcount 1000 --length 148 &
+  #iperf3 -c $3 --verbose --udp --bitrate 2M --blockcount 1000 --length 148 &
   #sleep 10
 
   # UDP with bit rate limit and packet length defined
