@@ -1,0 +1,1 @@
+Script `rasp-inference.py` used to identify real objects using a Raspberry Pi with a camera. Based on this [tutorial](https://pytorch.org/tutorials/intermediate/realtime_rpi.html) and results reported in this [post](https://otavioolsilva.github.io/posts/extra-research-01/).

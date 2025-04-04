@@ -1,0 +1,1 @@
+Scripts used to study different techniques to convert packets sniffed from the network to CSV files. Part of the paper ["Online Adequation of Network Traffic Traces at Clients to Feed Intrusion Detection Systems"](https://github.com/otavioolsilva/wtg-2025).

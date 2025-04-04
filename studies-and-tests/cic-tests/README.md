@@ -1,0 +1,1 @@
+Scripts used to study the performance of a Raspberry Pi running machine learning models using the CIC-IoT-2023 models. More informations in this [post](https://otavioolsilva.github.io/posts/research-06/).
