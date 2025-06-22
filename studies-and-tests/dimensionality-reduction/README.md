@@ -1,0 +1,1 @@
+Scripts used to compute the Mutual Information between each feature of the CIC-IoT-2023 dataset with the label one (attack/benign), and to compute the axes of the Principal Component Analysis (PCA). More information in this [post](https://otavioolsilva.github.io/posts/research-14/).
