@@ -1,0 +1,1 @@
+Experiment to evaluate the scenario of sharing a machine learning model through serialization between two devices, one being responsible for the training and the other for the inference. More information in this [post](https://otavioolsilva.github.io/posts/research-15/#experiment).
